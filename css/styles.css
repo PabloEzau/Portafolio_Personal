@@ -1,0 +1,65 @@
+/* ... otros estilos ... */
+img {
+    max-width: 400px; /* Ajusta el tamaño de la imagen */
+    margin: 0 auto;
+    display: block;
+}
+
+/* Estilos para la imagen en "Acerca de Mí" */
+img {
+    max-width: 200px;
+}
+
+/* ... otros estilos ... */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para encabezados de sección */
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para los elementos de lista de habilidades */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los elementos de proyecto */
+.project {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.project p {
+    color: #666;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

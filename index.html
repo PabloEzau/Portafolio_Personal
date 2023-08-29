@@ -1,1 +1,81 @@
-hola
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tu Portafolio</title>
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-5">
+        <h1>Mi Portafolio</h1>
+        <p class="lead">Programador entusiasta</p>
+    </header>
+
+    <!-- ... otros elementos ... -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2>Acerca de Mí</h2>
+            <img src="img/Pablo.jpg" alt="Tu Fotografía" class="img-fluid rounded-circle mb-3">
+            <p>¡Hola! Soy Pablo Ezaú Céspedes Ramos, un apasionado programador entusiasta con un amor profundo por la programación web. Desde que descubrí el mundo de la programación, he estado explorando y creando proyectos que combinan creatividad y código. Mi enfoque principal está en el desarrollo web, donde disfruto creando experiencias interactivas y atractivas para los usuarios.</p>
+        </div>
+    </section>
+    <!-- ... otros elementos ... -->
+
+    <section id="skills" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Habilidades</h2>
+            <img src="css/logos.png" alt="Habilidades" class="img-fluid mb-4">
+        </div>
+    </section>
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project">
+                        <h3>Wara Esmeralda - Foto estudio Profesional</h3>
+                        <p>Pagina Web desarrollado para un estudio fotografico.</p>
+                        <a href="https://pabloezau.github.io/Wara-Esmeralda/" class="btn btn-primary">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Pablo Ezaú Céspedes Ramos</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
